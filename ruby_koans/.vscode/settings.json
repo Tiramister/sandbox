@@ -1,0 +1,12 @@
+{
+    "[ruby]": {
+        "editor.defaultFormatter": "Shopify.ruby-lsp",
+    },
+    "rubyLsp.formatter": "rubocop",
+    "rubyLsp.enableExperimentalFeatures": true,
+    "rubyLsp.rubyVersionManager": "rbenv",
+    "rubyLsp.bundleGemfile": "./Gemfile",
+    "conventionalCommits.scopes": [
+        "ruby_koans"
+    ]
+}

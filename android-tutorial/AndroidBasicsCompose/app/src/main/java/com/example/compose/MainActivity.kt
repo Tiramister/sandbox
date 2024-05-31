@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.example.compose.ui.theme.AndroidBasicsComposeTheme
+import com.example.compose.unit1.Article
 import com.example.compose.unit1.Greeting
 
 class MainActivity : ComponentActivity() {
@@ -13,7 +14,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             AndroidBasicsComposeTheme {
-                Greeting()
+                Article()
             }
         }
     }

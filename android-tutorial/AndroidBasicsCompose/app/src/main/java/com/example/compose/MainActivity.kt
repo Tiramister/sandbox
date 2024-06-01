@@ -5,7 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.example.compose.ui.theme.AndroidBasicsComposeTheme
-import com.example.compose.unit1.Task
+import com.example.compose.unit1.Quadrant
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +13,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             AndroidBasicsComposeTheme {
-                Task()
+                Quadrant()
             }
         }
     }

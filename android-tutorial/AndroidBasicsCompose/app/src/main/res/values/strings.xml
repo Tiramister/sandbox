@@ -9,11 +9,19 @@
     <string name="task_praise">Nice work!</string>
     <string name="quadrant_text_title">Text composable</string>
     <string name="quadrant_text_description">Displays text and follows the recommended Material Design guidelines.</string>
-    <string name="quadrant_image_description">Creates a composable that lays out and draws a given Painter class object.</string>
     <string name="quadrant_image_title">Image composable</string>
+    <string name="quadrant_image_description">Creates a composable that lays out and draws a given Painter class object.</string>
     <string name="quadrant_row_title">Row composable</string>
     <string name="quadrant_row_description">A layout composable that places its children in a horizontal sequence.</string>
-    <string name="quadrant_column_description">A layout composable that places its children in a vertical sequence.</string>
     <string name="quadrant_column_title">Column composable</string>
+    <string name="quadrant_column_description">A layout composable that places its children in a vertical sequence.</string>
     <string name="roll">Roll</string>
+    <string name="lemonade_tree_text">Tap the lemon tree to select a lemon</string>
+    <string name="lemonade_tree_description">Lemon tree</string>
+    <string name="lemonade_squeeze_text">Keep tapping the lemon to squeeze it</string>
+    <string name="lemonade_squeeze_description">Lemon</string>
+    <string name="lemonade_drink_text">Tap the lemonade to drink it</string>
+    <string name="lemonade_drink_description">Glass of lemonade</string>
+    <string name="lemonade_restart_text">Tap the empty glass to start again</string>
+    <string name="lemonade_restart_description">Empty glass</string>
 </resources>

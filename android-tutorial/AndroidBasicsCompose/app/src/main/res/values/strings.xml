@@ -24,4 +24,15 @@
     <string name="lemonade_drink_description">Glass of lemonade</string>
     <string name="lemonade_restart_text">Tap the empty glass to start again</string>
     <string name="lemonade_restart_description">Empty glass</string>
+    <string name="instructions">Unscramble the word using all the letters.</string>
+    <string name="unscramble_skip">Skip</string>
+    <string name="unscramble_submit">Submit</string>
+    <string name="unscramble_score">Score: %d</string>
+    <string name="unscramble_word_count">%d/10</string>
+    <string name="unscramble_enter_your_word">Enter your word</string>
+    <string name="unscramble_congratulations">Congratulations!</string>
+    <string name="unscramble_you_scored">"You scored: %d"</string>
+    <string name="unscramble_exit">Exit</string>
+    <string name="unscramble_play_again">Play Again</string>
+    <string name="unscramble_wrong_guess">Wrong Guess!</string>
 </resources>

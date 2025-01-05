@@ -10,19 +10,19 @@
                    "!")))
 
 (defmulti diet (fn [x] (:eater x)))
-(defmethod diet :herbivore [a] __)
-(defmethod diet :carnivore [a] __)
-(defmethod diet :default [a] __)
+(defmethod diet :herbivore [a] (str (:name a) " eats veggies."))
+(defmethod diet :carnivore [a] (str (:name a) " eats animals."))
+(defmethod diet :default [a] (str "I don't know what " (:name a) " eats."))
 
 (meditations
  "Some functions can be used in different ways - with no arguments"
- (= __ (hello))
+ (= "Hello World!" (hello))
 
  "With one argument"
- (= __ (hello "world"))
+ (= "Hello, you silly world." (hello "world"))
 
  "Or with many arguments"
- (= __
+ (= "Hello to this group: Peter, Paul, Mary!"
     (hello "Peter" "Paul" "Mary"))
 
  "Multimethods allow more complex dispatching"
@@ -40,3 +40,13 @@
  "You may use a default method when no others match"
  (= "I don't know what Rich Hickey eats."
     (diet {:name "Rich Hickey"})))
+
+;; まとめ
+;; 多相関数も定義できる
+;; (<function-name> ([<args-1>] <body-1>) ([<args-2>] <body-2>) ... ([<args-n>] <body-n>))
+;;
+;; defmulti でも定義できる
+;; dispatch-function の返り値によって、どの defmethod が呼ばれるか決まる
+;; (defmulti <function-name> <dispatch-function>)
+;; (defmethod <function-name> <dispatch-value> [<args>] <body>)
+;; (defmethod <function-name> :default [<args>] <body>)
